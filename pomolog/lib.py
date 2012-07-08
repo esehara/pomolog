@@ -63,5 +63,5 @@ class pomotimer:
 
     def write_log(self,write_log):
         log_file = open(self.filepath,"a") 
-        log_file.write("\n" + write_log)
+        log_file.write(write_log + "\n")
         log_file.close() 
