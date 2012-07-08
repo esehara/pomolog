@@ -18,7 +18,7 @@ Pomodolo Toolkid for CUI''')
             ,help='Pomolog Start')
     param_start.add_argument('config'
             ,help='Pomolog Setting File(YAML)')
-    param_init.set_defaults(func=start)
+    param_start.set_defaults(func=start)
     cmd = parser.parse_args()
     print('Hello :) POMOLOG !!\n')
     conf = lib.load_configure(cmd.config)
