@@ -2,4 +2,5 @@ build
 dist
 __pycache__
 testrunner.watchr
+*.pyc
 pomolog.egg-info
