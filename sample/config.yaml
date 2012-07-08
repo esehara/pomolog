@@ -1,0 +1,8 @@
+log: pomolog.txt
+default:
+  #work_min: 30
+  #rest_min: 5
+  #long_rest_min: 15
+pre_command:
+  start: echo "start"
+  end: echo "end"
